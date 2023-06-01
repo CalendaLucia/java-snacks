@@ -37,10 +37,11 @@ public class Snack5 {
 //      riporto la variabile stringaUtente al suo tipo inziale ovvero una stringa
         String stringaUtente2 = String.valueOf(charArray);
 
-        System.out.println("Il tuo testo contiene:");
-        System.out.println("Caratteri alfabetici: " + countAlfabetici);
-        System.out.println("Caratteri numerici: " + countNumerici);
-        System.out.println("Caratteri non alfanumerici: " + countNonAlfanumerici);
+        System.out.println(stringaUtente2 + "\nIl tuo testo contiene:\n" +
+                "Caratteri alfabetici: " + countAlfabetici + "\n" +
+                "Caratteri numerici: " + countNumerici + "\n" +
+                "Caratteri non alfanumerici: " + countNonAlfanumerici);
+
 
 
     }
